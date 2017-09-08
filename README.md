@@ -1,10 +1,8 @@
 # Url Monitoring App
 
-
-![Dashboard](screenshots/index.JPG?raw=true)
-![Alt text](/screenshots/index.JPEG?raw=true "Home")
-![Alt text](/screenshots/index.JPEG?raw=true "Home")
 ![Screenshot](screenshots/index.JPG)
+
+
 This application is created using the Angular(client) and Spring(server). This application will check the URL if the response status is 200 and content contains the phrase “Component Status: GREEN”. After checking it, 
 it will report the results in the table.
 
