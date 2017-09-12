@@ -19,33 +19,33 @@
   <md-table class="example-container .align-table .mat-table"  #table [dataSource]="dataSource" mdSort>
 
     <ng-container mdColumnDef="timestamp">
-      <md-header-cell *mdHeaderCellDef md-sort-header> Timestamp</md-header-cell>
-      <md-cell *mdCellDef="let row"> {{row.timestamp}}</md-cell>
+      <md-header-cell *mdHeaderCellDef md-sort-header>Timestamp</md-header-cell>
+      <md-cell *mdCellDef="let row">{{row.timestamp}}</md-cell>
     </ng-container>
 
     <ng-container mdColumnDef="url">
-      <md-header-cell *mdHeaderCellDef md-sort-header> URL</md-header-cell>
-      <md-cell *mdCellDef="let row"> {{row.url}}</md-cell>
+      <md-header-cell *mdHeaderCellDef md-sort-header>URL</md-header-cell>
+      <md-cell *mdCellDef="let row">{{row.url}}</md-cell>
     </ng-container>
 
     <ng-container mdColumnDef="error">
       <md-header-cell *mdHeaderCellDef md-sort-header>Error</md-header-cell>
-      <md-cell *mdCellDef="let row"> {{row.error}}</md-cell>
+      <md-cell *mdCellDef="let row">{{row.error}}</md-cell>
     </ng-container>
 
     <ng-container mdColumnDef="status">
-      <md-header-cell *mdHeaderCellDef md-sort-header> Status</md-header-cell>
-      <md-cell class="example-cell" [style.color]="row.status" *mdCellDef="let row"> {{row.status}}</md-cell>
+      <md-header-cell *mdHeaderCellDef md-sort-header>Status</md-header-cell>
+      <md-cell class="example-cell" [style.color]="row.status" *mdCellDef="let row">{{row.status}}</md-cell>
     </ng-container>
 
     <ng-container mdColumnDef="responseTime">
-      <md-header-cell *mdHeaderCellDef md-sort-header> Response Time</md-header-cell>
-      <md-cell *mdCellDef="let row"> {{row.responseTime}}</md-cell>
+      <md-header-cell *mdHeaderCellDef md-sort-header>Response Time(500)</md-header-cell>
+      <md-cell *mdCellDef="let row">{{row.responseTime}}</md-cell>
     </ng-container>
 
     <ng-container mdColumnDef="retry">
       <md-header-cell *mdHeaderCellDef md-sort-header>Retry</md-header-cell>
-      <md-cell class="col-xs-6 col-sm-3" *mdCellDef="let row"> {{row.retry}}</md-cell>
+      <md-cell class="col-xs-6 col-sm-3" *mdCellDef="let row">{{row.retry}}</md-cell>
     </ng-container>
 
     <md-header-row *mdHeaderRowDef="displayedColumns"></md-header-row>
